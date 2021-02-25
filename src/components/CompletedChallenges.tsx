@@ -1,4 +1,6 @@
-import styles from '../styles/components/CompletedChallenges.module.css'
+import { useContext } from 'react';
+import styles from '../styles/components/CompletedChallenges.module.css';
+import { ChallengesContext } from '../contexts/ChallengesContext';
 
 export const CompletedChallenges = () => {
   return (
